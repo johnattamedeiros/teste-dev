@@ -1,0 +1,12 @@
+{
+  "zipcode": {
+    "timeout": "{{provider}} did not respond within {{ms}}ms (timeout)"
+  },
+  "exceptions": {
+    "zipcode_not_found": "Zipcode {{zipcode}} not found",
+    "all_providers_unavailable": "Could not fetch zipcode {{zipcode}}. All providers are unavailable."
+  },
+  "errors": {
+    "internal": "An unexpected error occurred. Please try again."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "zipcode": {
+    "timeout": "{{provider}} não respondeu em {{ms}}ms (timeout)"
+  },
+  "exceptions": {
+    "zipcode_not_found": "CEP {{zipcode}} não encontrado",
+    "all_providers_unavailable": "Não foi possível consultar o CEP {{zipcode}}. Todos os provedores estão indisponíveis."
+  },
+  "errors": {
+    "internal": "Ocorreu um erro inesperado. Por favor, tente novamente."
+  }
+}
